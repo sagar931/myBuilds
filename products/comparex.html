@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en" class="comparex-page">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>SAS CompareX | Features</title>
+  <link rel="stylesheet" href="../style.css" />
+  <link rel="stylesheet" href="comparex.css" />
+  <script src="../darkmode.js" defer></script>
+</head>
+<body class="fade-in comparex-page">
+
+  <nav class="navbar">
+    <div class="nav-logo"><a href="/">My Work</a></div>
+    <ul class="nav-links">
+      <li><a href="/products/">Products</a></li>
+      <li><a href="/articles/">Articles</a></li>
+      <li><a href="mailto:sagarmandal931@email.com">📧 Email</a></li>
+      <li><a href="https://www.linkedin.com/in/sagar-mandal-526698196/">🔗 LinkedIn</a></li>
+      <li><button id="theme-toggle">🌙</button></li>
+    </ul>
+  </nav>
+
+  <header class="hero">
+    <h1>🧠 SAS CompareX</h1>
+    <p>The smarter way to compare, track, and analyze SAS code. Built for analysts and developers who demand clarity in complex pipelines.</p>
+  </header>
+
+  <main class="comparex-layout">
+    <section class="comparex-info">
+      <h2>🌿 Core Components Overview</h2>
+      <p>SAS CompareX is structured around multiple intelligent UI and backend components. Below, we break down each feature with examples.</p>
+
+      <!-- 1. Upload Interface -->
+      <h3>📁 1. Code Upload & Primary Interface</h3>
+      <p>Upload Original and Updated SAS files. CompareX shows:</p>
+      <ul>
+        <li>Original Code panel</li>
+        <li>Updated Code panel</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.35.12 AM.png" alt="Upload Panel" class="feature-img" />
+        <li>Differences Panel at the bottom</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.35.40 AM.png" alt="Upload Panel" class="feature-img" />
+      </ul>
+      
+
+      <!-- 2. Metrics Modal -->
+      <h3>📊 2. Show Metrics</h3>
+      <p>Get quick code stats with one click:</p>
+      <ul>
+        <img src="../assets/Screenshot 2025-04-08 at 8.36.27 AM.png" alt="Metrics Popup" class="feature-img" />
+        <li>Lines added, removed, modified</li>
+        <li>Macro/function usage</li>
+        <li>Recursion detection</li>
+        <li>Hardcoded string/number count</li>
+      </ul>
+      <!-- Image: Metrics Modal -->
+      
+      
+
+      <!-- 3. Lineage Table -->
+      <h3>🧬 3. Dataset Lineage Table</h3>
+      <p>Structured table showing:</p>
+      <ul>
+        <img src="../assets/Screenshot 2025-04-08 at 8.36.57 AM.png" alt="Dataset Lineage Table" class="feature-img" />
+        <li>Output and input datasets</li>
+        <li>PROC SQL / DATA Step</li>
+        <li>Macro context</li>
+        <li>Line number jump</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.39.23 AM.png" alt="Dataset Lineage Table" class="feature-img" />
+      </ul>
+      <!-- Image: Dataset Table -->
+      
+      <!-- 4. Lineage Graph -->
+      <h3>🧠 4. Dataset Lineage Graph</h3>
+      <p>Trace data lineage visually:</p>
+      <ul>
+        <li>Trace Mode highlights downstream nodes</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.38.27 AM.png" alt="Dataset Lineage Graph" class="feature-img" />
+        <li>Node Info shows details on hover/click</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.38.44 AM.png" alt="Dataset Lineage Graph" class="feature-img" />
+        <li>Search bar with suggestions</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.37.37 AM.png" alt="Dataset Lineage Graph" class="feature-img" />
+      </ul>
+      <!-- Image: Graph View -->
+      
+      
+      
+      
+
+      <!-- 5. Code Differences -->
+      <h3>🧪 5. Intelligent Difference Detection</h3>
+      <p>The difference panel auto-tags lines as:</p>
+      <ul>
+        <li><code>[ADDED]</code>, <code>[REMOVED]</code>, <code>[MODIFIED]</code></li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.39.51 AM.png" alt="Code Difference Highlight" class="feature-img" />
+        <li>Manual line jump via side scroll</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.39.40 AM.png" alt="Code Difference Highlight" class="feature-img" />
+        <li>Smart syntax formatting</li>
+      </ul>
+      <!-- Image: Highlighted Differences -->
+      
+      
+
+      <!-- 6. Session Management -->
+      <h3>💾 6. Save & Restore Sessions</h3>
+      <p>Save your analysis as a `.cxs` session file.</p>
+      <img src="../assets/Screenshot 2025-04-08 at 8.43.26 AM.png" alt="Save Session Prompt" class="feature-img" />
+      
+      <ul>
+        <li>Restores file paths, layout, scrolls, and highlights</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.46.14 AM.png" alt="Save Session Prompt" class="feature-img" />
+        <li>Fast load times — useful for large files</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.43.37 AM.png" alt="Save Session Prompt" class="feature-img" />
+      </ul>
+      <!-- Image: Save Session -->
+      
+      
+      
+      
+
+      <!-- 7. Vertical Layout View -->
+      <h3>📐 7. Vertical Layout View</h3>
+      <p>CompareX offers a clean side-by-side vertical layout:</p>
+      <ul>
+        <img src="../assets/Screenshot 2025-04-08 at 8.41.05 AM.png" alt="Vertical Layout" class="feature-img" />
+        <li>Inline diff with colored highlights</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.43.15 AM.png" alt="Vertical Layout" class="feature-img" />
+        <li>Line jump and alignment sync</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.41.38 AM.png" alt="Vertical Layout" class="feature-img" />
+      </ul>
+      <!-- Image: Vertical Layout -->
+      
+      
+      
+      
+      
+      <!-- 8. Auto Scroll -->
+      <h3>🎞️ 8. Auto Scroll Feature</h3>
+      <p>Review long files effortlessly by auto-scrolling both panels in sync. Choose speed from:</p>
+      <ul>
+        <li>Slow</li>
+        <li>Medium</li>
+        <li>Fast</li>
+      </ul>
+      <!-- Image: Scroll Speeds -->
+
+      <!-- GIF: Auto Scroll in Action -->
+      <img src="../assets/Screen Recording 2025-04-08 at 8.44.31 AM.gif" alt="Auto Scroll Demo GIF" class="feature-img" />
+
+      <!-- 9. UI Enhancements -->
+      <h3>🧩 9. Other Smart Features</h3>
+      <ul>
+        <img src="../assets/Screenshot 2025-04-08 at 8.40.55 AM.png" alt="Smart Footer Buttons" class="feature-img" />
+        <li><strong>Sync Scroll:</strong> Panels stay aligned</li>
+        <li><strong>Theme Toggle:</strong> Switch between Light and Dark</li>
+        <img src="../assets/Screenshot 2025-04-08 at 8.40.40 AM.png" alt="Smart Footer Buttons" class="feature-img" />
+        <li><strong>Minimal / Full View:</strong> Collapse/expand difference panel</li>
+      </ul>
+      <!-- Image: Feature Footer -->
+
+      <!-- 10. File Edit Detection -->
+      <h3>🔍 10. File Edit Detection</h3>
+      <p>If a loaded file is externally edited, CompareX auto-detects and marks it with a 🔴.</p>
+      <!-- Image: File Edit Warning -->
+      <img src="../assets/Screenshot 2025-04-08 at 8.54.57 AM.png" alt="File Change Detection" class="feature-img" />
+    </section>
+
+    <!-- CTA Box -->
+    <aside class="comparex-cta sticky-cta">
+      <div class="cta-box">
+        <h3>Request Access</h3>
+        <p>Want to try SAS CompareX?</p>
+        <a href="https://forms.gle/your-google-form-link" target="_blank" class="btn">Request Access</a>
+      </div>
+    </aside>
+  </main>
+
+  <footer>
+    <p>Made with ❤️ by Sagar Mandal • © 2025</p>
+  </footer>
+
+</body>
+</html>
