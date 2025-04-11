@@ -81,3 +81,15 @@ body.dark-mode.comparex-page .comparex-media img {
     display: none;
   }
 }
+
+/* Ensures the Request Access box text appears in dark mode */
+body.dark-mode .comparex-cta .cta-box {
+  background-color: #1e1e1e;
+  color: #f0f0f0;
+  border: 1px solid #444;
+}
+
+body.dark-mode .comparex-cta .cta-box a.btn {
+  background-color: #f0f0f0;
+  color: #000;
+}
